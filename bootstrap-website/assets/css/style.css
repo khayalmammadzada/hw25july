@@ -1,0 +1,482 @@
+header .navbar-brand{
+color: #5FCF80 !important;
+font-size: 30px !important;
+
+}
+
+header .home-button{
+    color: #5FCF80 !important;
+}
+
+header .navbar-nav{
+    font-size: 18px !important;
+}
+
+header .button-gs{
+    width: 122px;
+    height: 37px;
+    border-radius: 25px;
+    background-color: #5FCF80 ;
+    border: none;
+    color: white;
+    margin-top: 4px;
+    margin-left: 14px;
+    font-size: 14px;
+}
+
+header .button-gs:hover{
+    background-color: #49b96a !important;
+}
+
+main .section-1 .bg-image{
+    background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+main .section-1 .text{
+    padding: 10% 7%;
+    position: absolute;
+   z-index: 1;
+}
+
+main .section-1 .text h3{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+main .section-1 .text p{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+main .section-1 .text button{
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    border-color: white;
+    border: 2.5px solid;
+    width: 155px;
+    height: 38px;
+    position: relative;
+}
+
+.bg-image::after{
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+background-color: black;
+position: absolute;
+top: 0;
+left: 0;
+opacity: .2;
+}
+
+.section-2 .image img{
+width: 100%;
+}
+
+.section-2 .text-info{
+    line-height: 28px;
+}
+
+.section-2 .text-info i{
+    background: white;
+    font-size: 18px;
+    color: #5FCF80;
+    border-radius: 50%;
+    border: #5FCF80 solid 1px;
+}
+
+.section-3 .services{ 
+    
+    background-color: #F6F7F6;
+    height: 80px;
+    padding-top: 15px;
+}
+
+.section-4 .why-mentor{
+    background-color: #5FCF80;
+    width: 330px;
+    height: 410px;
+}
+
+.section-4 button{
+    background-color: #FFFFFF33;
+    border-radius: 25px;
+    border: none;
+    width: 120px;
+    position: relative;
+    left: 25%;
+}
+
+.section-4 i{
+    color: #5FCF80;
+    font-size: 20px;
+    padding-top: 14px;
+  
+}
+
+.section-4 .cards{
+    text-align: center;
+}
+
+.section-4 .card-1{
+    border: gray solid .3px;
+    height: 350px;
+    width: 200px;
+}
+
+.section-4 .card-2{
+    border: gray solid .3px;
+    height: 350px;
+    width: 200px;
+}
+
+.section-4 .card-3{
+    border: gray solid .3px;
+    height: 350px;
+    width: 200px;
+}
+
+.section-4 .icon{
+text-align: center;
+margin: 0 auto;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: #ECF9F0;
+}
+
+.section-5 .item{
+    text-align: center;
+    padding-top: 12px;
+    width: 190px;
+    height: 60px;
+    border: solid .1px rgb(173, 173, 173);
+    letter-spacing:1px;
+}
+
+.section-5 .item:hover {
+    border-color: #5FCF80;
+    
+}
+
+.section-5 .item:hover p{
+    color: #5FCF80;
+}
+
+.section-5 .item p{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.section-5 .item i{
+    font-size: 22px;
+}
+
+.section-5 .item .lorem{
+    
+    color: orange;
+}
+
+.section-5 .item .nemo{
+    
+    color: rgb(43, 139, 212);
+}
+.section-5 .item .dirada{
+    
+    color: rgb(109, 81, 81);
+}
+.section-5 .item .dolor{
+    
+    color: blue;
+}
+
+.section-5 .item .eiusmod{
+    
+    color: orange;
+}
+.section-5 .item .moton{
+    
+    color: rgb(151, 40, 146);
+}
+
+.section-5 .item .sed{
+    
+    color: violet;
+}
+.section-5 .item .midela{
+    
+    color: rgb(55, 191, 215);
+}
+.section-5 .item .verdo{
+    
+    color: rgb(253, 164, 0);
+}
+.section-5 .item .magni{
+    
+    color: pink;
+}
+.section-5 .item .pira{
+    
+    color: blue;
+}
+.section-5 .item .flavor{
+    
+    color: green;
+}
+
+.section-6{
+    margin-top: 60px;
+}
+
+.section-6 .courses p{
+    color: #AAAAAA;
+    display: inline-block;
+    font-size:  19px;
+}
+
+.section-6 .courses .line{
+    display: inline-block;
+    width: 115px;
+    height: 1.5px;
+    background-color: #9AE1AF;
+}
+.section-6 .courses h2{
+    font-weight: bold;
+}
+
+.section-7 .description span{
+    display: inline-block;
+}
+.section-7 .description span:nth-child(1){
+    padding-left: 10px;
+    height: 33px;
+    width: 158px;
+    background-color: #5FCF80;
+}
+
+.section-7 .description span:nth-child(2){
+    padding-left: 126px;
+    font-weight: bold;
+}
+.section-7 .description .line{
+    width: 92%;
+    height: .3px;
+    background-color: gray;
+}
+
+.section-7 .description .image{
+   background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/trainers/trainer-1.jpg);
+   width: 60px;
+   height: 60px;
+   background-position: center;
+   background-size: contain;
+   border-radius: 50%;
+   display: inline-block;
+}
+.section-7 .description .antonio{
+    display: inline-block;
+   position: relative;
+   bottom: 22px;
+   left: 6px;
+   color: #5A6C60;
+   font-size: 18px;
+}
+
+.section-7 .description{
+    border: solid .2px gray;
+    width: 100%;
+}
+
+.section-7 .description .fifty{
+    position: relative;
+    left: 120px;
+    display: inline-block;
+    bottom: 22px;
+  
+}
+
+.section-7 .description .sixty-five{
+    display: inline-block;
+    position: relative;
+    left: 140px;
+    bottom: 22px;
+}
+
+/* ----- */
+
+
+.section-7 .seo .description .image{
+   background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/trainers/trainer-2.jpg);
+   width: 60px;
+   height: 60px;
+   background-position: center;
+   background-size: contain;
+   border-radius: 50%;
+   display: inline-block;
+}
+.section-7 .description .lana{
+    display: inline-block;
+   position: relative;
+   bottom: 22px;
+   left: 6px;
+   color: #5A6C60;
+   font-size: 18px;
+}
+
+
+.section-7 .description .thirty-four{
+    position: relative;
+    left: 120px;
+    display: inline-block;
+    bottom: 22px;
+  
+}
+
+.section-7 .description .fourty-two{
+    display: inline-block;
+    position: relative;
+    left: 140px;
+    bottom: 22px;
+}
+.section-7 .seo .description span:nth-child(1){
+    padding-left: 10px;
+    height: 33px;
+    width: 100px;
+    background-color: #5FCF80;
+}
+
+/* --- */
+
+.section-7 .copywriting .description .image{
+    background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/trainers/trainer-3.jpg);
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    display: inline-block;
+ }
+ .section-7 .description .lana{
+     display: inline-block;
+    position: relative;
+    bottom: 22px;
+    left: 6px;
+    color: #5A6C60;
+    font-size: 18px;
+ }
+ 
+ 
+ .section-7 .description .thirty-four{
+     position: relative;
+     left: 120px;
+     display: inline-block;
+     bottom: 22px;
+   
+ }
+ 
+ .section-7 .description .fourty-two{
+     display: inline-block;
+     position: relative;
+     left: 140px;
+     bottom: 22px;
+ }
+ .section-7 .copywriting .description span:nth-child(1){
+     padding-left: 10px;
+     height: 33px;
+     width: 100px;
+     background-color: #5FCF80;
+ }
+
+.section-8{
+    margin-top: 120px;
+}
+
+.section-8 .text-icons{
+    border: .3px solid gray;
+    padding-top: 25px;
+}
+
+.section-8 .text-icons{
+   text-align: center;
+}
+
+.section-8 .text-icons .icons{
+    color: rgb(70, 105, 70);
+}
+
+.section-8 .text-icons i:hover{
+    color: #5FCF80;
+    cursor: pointer;
+}
+
+.section-8 .text-icons .text .prg{
+    color: #AAAAAA;
+    font-size: 14px;
+}
+
+footer .fsec-1{
+    margin-top: 70px;
+    height: 350px;
+    background-color: #F9FAF9;
+}
+
+footer .mentor span{
+display: inline-block;
+}
+
+footer .useful-links i{
+    color: #5FCF80;
+}
+
+
+footer .useful-links p{
+color: #777777;
+font-size: 15px;
+}
+
+footer .useful-links p:hover{
+    color: #5FCF80;
+    cursor: pointer;
+}
+
+footer .our-services i{
+    color: #5FCF80;
+}
+
+
+footer .our-services p{
+color: #777777;
+font-size: 15px;
+}
+
+footer .our-services p:hover{
+    color: #5FCF80;
+    cursor: pointer;
+}
+
+footer .fsec-1 .newsletter button{
+    border-radius: 25px;
+    border: none;
+    background-color: #5FCF80;
+    width: 110px;
+    height: 40px;
+   
+}
+footer .fsec-1 .newsletter button:hover{
+    background-color: #4ab66a ;
+    cursor: pointer;
+}
+footer .fsec-1 .newsletter input{
+    border-radius: 25px;
+    border: solid .3px rgb(160, 156, 156);
+}
